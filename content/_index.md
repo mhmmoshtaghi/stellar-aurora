@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '3rem'
+  spacing: '6rem'
 
 sections:
   - block: resume-biography-3
@@ -25,9 +25,6 @@ sections:
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
-      # Reduce top padding on the very first section to bring content closer to the navbar
-      spacing:
-        padding: [0, 0, 24, 0] # [top, right, bottom, left] in px; reduces top space, keeps some bottom spacing
       # Avatar customization
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
